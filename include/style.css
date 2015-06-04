@@ -5,7 +5,7 @@
 */
 form textarea,
 form input,
-form select{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;padding:6px;font: normal 13px "Century Gothic", arial, sans-serif;border:1px solid #ccc; /* #fff */border-bottom:1px solid #ccc;resize:none;background-color:#fafafa;}
+form select{border-radius:2px;-moz-border-radius:2px;-webkit-border-radius:2px;padding:6px;font: normal 13px "Courier New", Courier, monospace;border:1px solid #ccc; /* #fff */border-bottom:1px solid #ccc;resize:none;background-color:#fafafa;}
 	form textarea:focus,
 	form input:focus,
 	form select:focus{background-color:#fdfdfd;}
@@ -182,7 +182,7 @@ div.subSubMenu{border-bottom:3px dotted #f2f2f2;margin:0 0 10px 0;}
 		a:focus {outline: none;}
 		a:hover{cursor:pointer;}
 		a.sort{color:#666;text-decoration:underline;}
-body{color: #000;margin:0;letter-spacing:0.2px;padding:0;border-top:10px solid #74839C;background-color:#f6f6f6;font: normal 12px "Century Gothic", arial, sans-serif;}
+body{color: #000;margin:0;letter-spacing:0.2px;padding:0;border-top:10px solid #74839C;background-color:#f6f6f6;font: normal 11px "Courier New", Courier, monospace;}
 h1{font-size:16px;color:#333;font-weight:normal;padding:0 0 20px 0;}
 h2{font-size:14px;color:#333;font-weight:normal;padding:0 0 20px 0;}
 div#wrapper{padding:10px;width:900px;margin:auto;}
@@ -200,7 +200,7 @@ table.viewComponent{padding:10px 0 10px 0;}
 			table.viewComponent tr td.what{font-weight:bold;color:#666;width:120px;}
 
 div.aboutComponentHeader{overflow:auto;}
-	div.componentComment{max-height:223px;width:420px;color:#444;overflow-x:hidden;overflow-y:auto;}
+	div.componentComment{max-height:223px;width:420px;color:#444;overflow-x:auto;overflow-y:auto;}
 	
 	div.componentGallery{float:right;width:430px;}
 		div.componentGallery div.bigImage{overflow:auto;float:right;text-align:right;overflow:auto;}
